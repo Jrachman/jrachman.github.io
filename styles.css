@@ -2,24 +2,27 @@ body{
     background-color: #1BA0A8;
 }
 
-img {
+.imgHeadshot {
   width: 17.5%;
   height: auto;
   border-radius: 50%;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  transition: transform .1s; /* Animation */
 }
 
-.center {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
-    transition: transform .1s; /* Animation */
-}
-
-.center:hover {
+.imgHeadshot:hover {
     transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.imgEmailIcon {
+  width: 3%;
+  height: auto;
+  /*border-radius: 50%;*/
 }
 
 .zoom {
@@ -32,4 +35,11 @@ img {
 
 .zoom:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+container {
+    left: 500;
+    right: 0;
+    top: 1;
+    bottom: 2;
 }
