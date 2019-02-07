@@ -1,3 +1,15 @@
 body{
-    background-color: powderblue;
+    background-color: #75FF7F;
+}
+
+img {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
