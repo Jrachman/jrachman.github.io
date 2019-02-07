@@ -2,10 +2,7 @@ body{
     background-color: powderblue;
 }
 
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+img {
+  position: absolute;
+  clip: rect(0px, 140px, 140px, 0px);
 }
