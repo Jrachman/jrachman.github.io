@@ -1,6 +1,6 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     $('a').mouseover(function(){
-        var color = $(this).text().trim();
+        //var color = $(this).text().trim();
         //alert(color);
         //$('.box').css('background',color);
         $(this).animate({left:"-42px"},{duration:200}).delay(190)
@@ -14,4 +14,4 @@ $(document).ready(function(){
                .animate({zIndex:"0"},{duration:10})
                .animate({left:"0px"},{duration:200});
     });
-});
+});*/

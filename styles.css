@@ -1,5 +1,5 @@
 body{
-    background-color: #1BA0A8;
+    background-color: #FFC4F7;
 }
 
 .imgHeadshot {
@@ -22,7 +22,15 @@ body{
 .imgEmailIcon {
   width: 3%;
   height: auto;
+  transition: transform .1s;
   /*border-radius: 50%;*/
+  border: 3px solid green;
+  border-width: 50px;
+  border-height: 50px;
+}
+
+.imgEmailIcon:hover {
+  transform: translateX(50px);
 }
 
 .zoom {
@@ -37,9 +45,3 @@ body{
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-container {
-    left: 500;
-    right: 0;
-    top: 1;
-    bottom: 2;
-}
