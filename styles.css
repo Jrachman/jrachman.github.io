@@ -3,6 +3,7 @@ body{
 }
 
 .imgHeadshot {
+  z-index: 1;
   width: 17.5%;
   height: auto;
   border-radius: 50%;
@@ -20,6 +21,7 @@ body{
 }
 
 .imgEmailIcon {
+  z-index: 2;
   width: 3%;
   height: auto;
   transition: transform .1s;
@@ -27,15 +29,16 @@ body{
   border-width: 50px;
   border-height: 50px;
   left: -100;
+  z-index: -1;
 }
 
 .imgEmailIcon:hover {
-  transform: translateX(100px);
+  transform: translateX(80px);
 }
 
 div.relative {
   position: relative;
-  left: 1100px;
+  left: 1000px;
   top: 375px;
   /*border: 3px solid #73AD21;*/
 }
