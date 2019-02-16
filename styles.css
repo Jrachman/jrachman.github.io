@@ -2,7 +2,7 @@ body {
   background-color:#393f4d;
   text-align: center;
   color:#fff;
-  padding-top:15em;
+  padding-top:10em;
   margin: auto;
 }
 
@@ -13,4 +13,13 @@ img {
     max-width:5%;
     max-height:5%;
     padding-top:30em;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 50;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
