@@ -1,55 +1,8 @@
-body{
-    background-color: #FFC4F7;
+body {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
 }
 
-.imgHeadshot {
-  z-index: 1;
-  width: 17.5%;
-  height: auto;
-  border-radius: 50%;
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  margin:auto;
-  transition: transform .1s; /* Animation */
-}
-
-.imgHeadshot:hover {
-    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.imgEmailIcon {
-  z-index: 2;
-  width: 3%;
-  height: auto;
-  transition: transform .1s;
-  border: 3px solid green;
-  border-width: 50px;
-  border-height: 50px;
-  left: -100;
-}
-
-.imgEmailIcon:hover {
-  transform: translateX(80px);
-}
-
-div.relative {
-  position: relative;
-  left: 1000px;
-  top: 375px;
-  /*border: 3px solid #73AD21;*/
-}
-
-.zoom {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+* { color:#fff; text-decoration: none;}
