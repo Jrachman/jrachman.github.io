@@ -2,7 +2,15 @@ body {
   background-color:#393f4d;
   text-align: center;
   color:#fff;
-  padding-top:25em;
+  padding-top:15em;
+  margin: auto;
 }
 
 * { color:#fff; text-decoration: none;}
+
+img {
+    filter: brightness(0) invert(1);
+    max-width:5%;
+    max-height:5%;
+    padding-top:30em;
+}
