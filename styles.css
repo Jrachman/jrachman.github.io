@@ -10,7 +10,7 @@ body {
 
 * { color:#fff; text-decoration: none;}
 
-img {
+.icons {
     filter: brightness(0) invert(1);
     max-width:40px;
     max-height:40px;
@@ -23,4 +23,14 @@ footer {
   width: 100%;
   color: white;
   text-align: center;
+}
+
+.iconHeadshot {
+  width: 50%;
+  height: auto;
+  border-top-left-radius: 100%;  /* 100px of height + 10px of border */
+  border-top-right-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
