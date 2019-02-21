@@ -3,7 +3,7 @@ body {
   text-align: center;
   color:#fff;
   padding-top:15em;
-  margin: auto;
+  margin: initial;
   overflow-x:hidden;
   overflow-y:hidden;
 }
