@@ -24,13 +24,3 @@ footer {
   color: white;
   text-align: center;
 }
-
-.iconHeadshot {
-  width: 50%;
-  height: auto;
-  border-top-left-radius: 100%;  /* 100px of height + 10px of border */
-  border-top-right-radius: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
