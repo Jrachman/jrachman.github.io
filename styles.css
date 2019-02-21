@@ -1,3 +1,8 @@
+head {
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
 body {
   overflow-x:hidden;
   overflow-y:hidden;
